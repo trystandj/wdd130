@@ -5,13 +5,13 @@
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
-    padding: 20px;   
+    padding: 20px;
 }
 
 :root {
     --primary-color: #b2bbb9;
     --secondary-color: #705b52;
-    --accent1-color:#3c6464; 
+    --accent1-color:#3c6464;
     --accent2-color: #eceae7;
     --heading-font: 'Lato';
     --paragraph-font: 'Lato';
