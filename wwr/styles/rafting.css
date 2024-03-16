@@ -18,6 +18,7 @@
 
 .hero {
     position: relative;
+   
 }
 
 .hero img {
@@ -42,20 +43,18 @@
     width: 80%; 
     background: gray;
     opacity: 80%;
-    padding: 100px;
-    box-sizing: border-box;
+    padding: 20px;
   }
 
   .hero article img {
     width: 350px; 
-    height: auto; 
-    position: absolute;
-    top: 10px;
-    right: -40px; 
+    height: auto;
+    float: right; 
   }
   
   .hero article p {
     color: white;
+    text-align: center;
   }
 
 nav {
@@ -80,3 +79,13 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
+section img {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
