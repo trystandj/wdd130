@@ -27,18 +27,29 @@ h1 {
     display: inline-block;
     font-size: x-large;
     padding-bottom: 10px;
+<<<<<<< HEAD
     width: 100%;
     text-align: center;
 }
 
 main img {
     width: 175px;
+=======
+}
+
+main img {
+    width: 200px;
+>>>>>>> 527ccfed3b35c87e09ea9a5038e1e63f091161d0
     height: auto;
     border: 1px solid steelblue;
     padding: 1px;
     box-shadow: 0 0 30px gray;
     float: right;
+<<<<<<< HEAD
     margin-top: 25px;
+=======
+    margin: 10px;
+>>>>>>> 527ccfed3b35c87e09ea9a5038e1e63f091161d0
 }
 
 p {
@@ -54,12 +65,17 @@ p {
 main {
     grid-column: 2/3;
     margin: 1rem;
+<<<<<<< HEAD
     display: inline;
     position: relative;
     
 }
 
 
+=======
+}
+
+>>>>>>> 527ccfed3b35c87e09ea9a5038e1e63f091161d0
 aside {
     width: auto;
     text-align: center;
@@ -69,7 +85,11 @@ aside {
 }
 
 aside img {
+<<<<<<< HEAD
     width: 250px;
+=======
+    width: 300px;
+>>>>>>> 527ccfed3b35c87e09ea9a5038e1e63f091161d0
     height: auto;
     margin-bottom: 1px;
 }
