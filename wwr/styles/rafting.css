@@ -14,6 +14,35 @@
     --nav-hover-background-color: #705b52;
 }
 
+body {
+  background: #eceae7; 
+}
+
+
+header {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  align-items: center;
+  border-bottom: 3px solid black;
+  margin: 0rem auto;
+  background-color: #eceae7;
+}
+
+header img {
+  width: 200px;
+  height: auto;
+  margin-left: 25%;
+}
+
+header nav {
+  text-align: center;
+  display: flex;
+  margin: 10px;
+  font-size: x-large;
+  justify-content: space-evenly;
+  
+}
+
 .hero {
     position: relative;
    
@@ -21,26 +50,27 @@
 
 .hero img {
     width: 100%;
-    height: auto;
+    height: 1000px;
     display: block; 
   }
 
   .hero h1 {
     position: absolute;
-    top: 20px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
     color: black;
+    font-size: 100px;
   }
 
   .hero article {
     position: absolute;
-    top: 15%;
+    top: 20%;
     left: 50%;
     transform: translateX(-50%);
     width: 80%; 
     background: gray;
-    opacity: 80%;
+    opacity: 90%;
     padding: 20px;
   }
 
@@ -53,6 +83,7 @@
   .hero article p {
     color: white;
     text-align: center;
+    font-size: x-large;
   }
 
 nav {
