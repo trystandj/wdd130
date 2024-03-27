@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: white;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+input[type="number"] {
+   
+    vertical-align: bottom;
+}
+
+h1 {
+    margin: 1rem;
+    color: teal;
+    text-align: center;
+}
+
+form {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px black;
+    border-radius: .5rem;
+    background-color: rgb(156, 156, 156);
+    display: grid;
+    
+}
+
+.form-item {
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 10px;
+}
+
+.form-item:hover {
+    background-color: rgb(202, 200, 200);
+}
+
+.form-item input[type="text"],
+.form-item textarea,
+.form-item select {
+  width: 100%;
+ 
+  border-radius: 10px;
+  display: block; 
+}
+
+.form-item2 {
+    width: 100%;
+   display: block;
+   margin-bottom: 20px;
+  
+   text-align: left;
+}
+
+.image-container {
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: left;
+}
+
+button {
+    margin: 2rem;
+    background-color: rgb(233, 229, 229);
+    color: black;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: large;
+    
+}
+
+button:hover {
+    background-color: rgb(202, 200, 200);
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: large;
+    border-top: 1px solid black;
+}
