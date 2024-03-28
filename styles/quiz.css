@@ -18,7 +18,7 @@ header {
 }
 
 input[type="number"] {
-   
+
     vertical-align: bottom;
 }
 
@@ -36,7 +36,7 @@ form {
     border-radius: .5rem;
     background-color: rgb(156, 156, 156);
     display: grid;
-    
+
 }
 
 .form-item {
@@ -45,33 +45,44 @@ form {
     padding: 10px;
 }
 
-.form-item:hover {
-    background-color: rgb(202, 200, 200);
-}
+
 
 .form-item input[type="text"],
 .form-item textarea,
 .form-item select {
-  width: 100%;
- 
-  border-radius: 10px;
-  display: block; 
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    display: block;
 }
 
 .form-item2 {
     width: 100%;
-   display: block;
-   margin-bottom: 20px;
-  
-   text-align: left;
+    display: block;
+    margin-bottom: 20px;
+
+    text-align: left;
+}
+
+
+
+.input-long {
+    width: 100%;
+    height: 40px;
 }
 
 .image-container {
     width: 100%;
-    height: auto;
+    text-align: center;
     display: block;
-    text-align: left;
+    margin: 10px 0;
 }
+
+.image-container img {
+    width: 50%;
+    height: auto;
+}
+
 
 button {
     margin: 2rem;
@@ -81,7 +92,7 @@ button {
     border-radius: .5rem;
     padding: .75rem;
     font-size: large;
-    
+
 }
 
 button:hover {
