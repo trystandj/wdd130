@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,46 +9,39 @@
     <meta name="description" content="This site is a basic HTML and CSS quiz.">
     <meta name="author" content="Trystan Jones">
 </head>
+
 <body>
     <header>
         <h1>WDD 130 | Trystan Jones | Basic HTML and CSS Quiz</h1>
     </header>
     <main>
         <form>
-            
-                <ol>
-                    <div class="form-item">
-                        <label for="q1">1. What does the acronym CSS stand for?</label>
-                        <input type="text" id="q1" name="q1">
-                    </div>
-                </ol>
-                <ol>
-                    <div class="form-item">
-                        <label for="q2">2. How are id and class attributes selected in CSS?</label>
-                        <textarea id="q2" name="q2" rows="4" cols="50"></textarea>
-                      </div>
-                      
-                </ol>
-                <ol>
-                    <div class="form-item">
-                        <label for="q3">3. Which of the following is a valid CSS comment?</label>
-                        <select id="q3" name="q3">
-                            <option value="">Choose One...</option>
-                            <option value="1">// This is a comment</option>
-                            <option value="2"><-- This is a comment --></option>
-                            <option value="3">/* This is a comment */</option>
-                            <option value="4"># This is a comment</option>
-                        </select>
-                    </div>
-                </ol>
-                <div class="form-item2">
-                    <label for="q4">4. What is the bottom margin given this declaration?</label>
-                    <div class="image-container">
-                         <img src="images/styles/Screenshot 2024-03-26 191348.png" alt="css-image">
-                    </div>
-                    <input type="number" id="q4" name="q4" class="input-long" min="0" step="1">
+            <div class="form-item">
+                <label for="q1">1. What does the acronym CSS stand for?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="form-item">
+                <label for="q2">2. How are id and class attributes selected in CSS?</label>
+                <textarea id="q2" name="q2" rows="4" cols="50"></textarea>
+            </div>
+            <div class="form-item">
+                <label for="q3">3. Which of the following is a valid CSS comment?</label>
+                <select id="q3" name="q3">
+                    <option value="">Choose One...</option>
+                    <option value="1">// This is a comment</option>
+                    <option value="2">- This is a comment -</option>
+                    <option value="3">/* This is a comment */</option>
+                    <option value="4"># This is a comment</option>
+                </select>
+            </div>
+            <div class="form-item2">
+                <label for="q4">4. What is the bottom margin given this declaration?</label>
+                <div class="image-container">
+                    <img src="images/css.png" alt="CSS Image">
                 </div>
-            
+                <input type="number" id="q4" name="q4" class="input-long" min="0" step="1">
+            </div>
+
             <button type="submit">Submit Quiz</button>
         </form>
     </main>
@@ -55,5 +49,5 @@
         <p>©2024 | Basic HTML and CSS Quiz | Trystan Jones
     </footer>
 </body>
-</html>
 
+</html>
