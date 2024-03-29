@@ -9,9 +9,9 @@
     --heading-font: 'Lato';
     --paragraph-font: 'Lato';
     --nav-background-color: #8f8b88;
-    --nav-link-color:#eceae7;
-    --nav-hover-link-color:#79a19b;
-    --nav-hover-background-color: #705b52;
+    --nav-link-color:#000000;
+    --nav-hover-link-color:#000000;
+    --nav-hover-background-color: #BFBFBF;
 }
 
 body {
@@ -196,7 +196,7 @@ footer {
 footer p {
   font-size: 100%;
   margin-left: 42%;
-  color: #3c6464;
+  color: black;
 }
 
 .sociallinks {
