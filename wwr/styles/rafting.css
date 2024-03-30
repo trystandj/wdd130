@@ -292,6 +292,10 @@ footer a {
   padding-bottom:20px ;
 }
 
+.team-info img {
+  width: 200px;
+}
+
 .the-team h1 {
   grid-column: 2;
   text-align: center;
