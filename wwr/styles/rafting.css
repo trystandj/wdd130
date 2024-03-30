@@ -203,6 +203,10 @@ footer p {
   color: black;
 }
 
+footer a {
+  color: white;
+}
+
 .sociallinks {
   display: flex;
 
