@@ -40,12 +40,10 @@ header nav {
   margin: 10px;
   font-size: x-large;
   justify-content: space-evenly;
-
 }
 
 .hero {
   position: relative;
-
 }
 
 .hero img {
@@ -278,7 +276,7 @@ footer a {
   grid-column: 2;
   margin-top: 20px;
   justify-self: center;
-  
+
 }
 
 .the-team {
@@ -289,7 +287,7 @@ footer a {
   border-bottom: 1px solid black;
 
   height: 500px;
-  padding-bottom:20px ;
+  padding-bottom: 20px;
 }
 
 .team-info img {
@@ -379,7 +377,7 @@ footer a {
 
 button {
   width: 40%;
-  background-color: rgb(202, 200, 200);
+  background-color: rgb(238, 234, 234);
   color: black;
   border: none;
   border-radius: .5rem;
@@ -389,5 +387,169 @@ button {
 }
 
 button:hover {
-  background-color: rgb(233, 229, 229);
+  background-color: rgb(253, 250, 250);
+}
+
+/* Trips Page */
+
+.trips-head {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.trips-head img {
+  width: 100%;
+  height: 600px;
+  display: block;
+}
+
+.trips-head h1 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 2em;
+  margin: 10px;
+  text-align: center;
+}
+
+.trips-head h3 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 30px;
+}
+
+.trips-head p {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 1em;
+  text-align: center;
+  width: 40%;
+}
+
+.trips-head button {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: gray;
+  font-size: 20px;
+  text-align: center;
+  width: 20%;
+}
+
+.trips-head a:hover {
+  color: white;
+}
+
+.transition {
+  text-align: center;
+  font-size: xx-large;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.trip-area {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  border-bottom: 1px solid black;
+
+  height: 700px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+
+}
+
+
+.trip-area img {
+  width: 100%;
+  height: 400px;
+}
+
+
+.center {
+  color: black;
+  font-size: large;
+  justify-self: center;
+  display: block;
+  text-align: center;
+}
+
+.trips-table-area h1, .trips-table-area h2 {
+ position: relative;
+ text-align: center;
+ color: white;
+ top: 40px;
+}
+
+.trips-table-area {
+  display: grid;
+  grid-template-columns: 1fr 2fr; 
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.trips-table-image {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.trips-table-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+
+}
+
+.trips-table-image h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+ 
+.trips-table-image h2 {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+
+.trips-table {
+  background-color: white; 
+  padding: 1em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  
+}
+
+th, td {
+  text-align: left;
+  padding: 0.5em 1em;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #eee;
+  font-weight: bold;
 }
